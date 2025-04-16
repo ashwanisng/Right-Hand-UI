@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_starter/utils/theme/app_theme.dart' show AppTheme;
 import 'package:flutter_bloc_starter/utils/values/env.dart' show Env;
+import 'package:flutter_bloc_starter/view/module/auth/auth_view.dart';
 import 'package:flutter_bloc_starter/view/module/home/home_view.dart';
 
 class App extends StatefulWidget {
@@ -17,7 +18,7 @@ class _AppState extends State<App> {
       title: Env.title,
       debugShowCheckedModeBanner: false,
       theme: AppTheme.theme,
-      home: const HomeView(),
+      home: const AuthView(),
     );
   }
 }
