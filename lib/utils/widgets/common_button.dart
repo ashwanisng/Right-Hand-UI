@@ -22,7 +22,7 @@ class CommonButton extends StatelessWidget {
         onPressed: onTap,
         style: ElevatedButton.styleFrom(
           elevation: 0,
-          padding: const EdgeInsets.symmetric(vertical: 16),
+          padding: const EdgeInsets.symmetric(vertical: 12),
           backgroundColor: buttonBackgroundColor,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         ),
