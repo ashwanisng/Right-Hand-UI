@@ -37,6 +37,22 @@ class Styles {
     ),
   );
 
+  static TextStyle tsGrey600Regular12 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.grey500,
+      fontWeight: FontWeight.w600,
+      fontSize: 12.0,
+    ),
+  );
+
+  static TextStyle tsGrey600Regular11 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.darkGrey,
+      fontWeight: FontWeight.w600,
+      fontSize: 11.0,
+    ),
+  );
+
   static TextStyle tsLightPurple500Regular12 = GoogleFonts.poppins(
     textStyle: const TextStyle(
       color: AppColors.primaryColor,

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc_starter/utils/theme/app_colors.dart';
 import 'package:flutter_bloc_starter/utils/theme/styles.dart';
 import 'package:flutter_bloc_starter/utils/widgets/common_button.dart';
+import 'package:flutter_bloc_starter/view/module/home/home_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class AuthView extends StatefulWidget {
@@ -106,14 +107,24 @@ class _AuthViewState extends State<AuthView> {
                       const SizedBox(height: 15.0),
                       // Buttons Section
                       CommonButton(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => HomeView()),
+                          );
+                        },
                         buttonName: 'Login',
                         buttonBackgroundColor: AppColors.primaryColor,
                         buttonTextStyle: Styles.tsWhite500Regular16,
                       ),
                       const SizedBox(height: 1.0),
                       CommonButton(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => HomeView()),
+                          );
+                        },
                         buttonName: 'I’m new, sign me up',
                         buttonBackgroundColor: AppColors.lightPurpleColor,
                         buttonTextStyle: Styles.tsLightPurple500Regular16,
