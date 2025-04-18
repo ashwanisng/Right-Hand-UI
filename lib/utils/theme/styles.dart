@@ -21,9 +21,34 @@ class Styles {
     ),
   );
 
+  static TextStyle tsDarkGrey800Regular14 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.darkGrey800,
+      fontWeight: FontWeight.w500,
+      fontSize: 14.0,
+    ),
+  );
+
   static TextStyle tsLightPurple500Regular16 = GoogleFonts.poppins(
     textStyle: const TextStyle(
       color: AppColors.primaryColor,
+      fontWeight: FontWeight.w600,
+      fontSize: 16.0,
+    ),
+  );
+
+
+  static TextStyle tsPurpleRegular14 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.purple,
+      fontWeight: FontWeight.w600,
+      fontSize: 14.0,
+    ),
+  );
+
+  static TextStyle tsGrey800Regular16 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.lightGrey800,
       fontWeight: FontWeight.w600,
       fontSize: 16.0,
     ),
@@ -34,6 +59,39 @@ class Styles {
       color: AppColors.grey500,
       fontWeight: FontWeight.w400,
       fontSize: 12.0,
+    ),
+  );
+
+  static TextStyle tsGrey400Regular12 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.lightGrey400,
+      fontWeight: FontWeight.w400,
+      fontSize: 12.0,
+    ),
+  );
+
+
+  static TextStyle tsLightGrey2Regular12 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.lightGrey2,
+      fontWeight: FontWeight.w400,
+      fontSize: 12.0,
+    ),
+  );
+
+  static TextStyle tsLightGrey600Regular12 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.lightGrey600,
+      fontWeight: FontWeight.w400,
+      fontSize: 12.0,
+    ),
+  );
+
+  static TextStyle tsBlack900Regular14 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.black900,
+      fontWeight: FontWeight.w600,
+      fontSize: 14.0,
     ),
   );
 
@@ -58,6 +116,14 @@ class Styles {
       color: AppColors.primaryColor,
       fontWeight: FontWeight.w500,
       fontSize: 12.0,
+    ),
+  );
+
+  static TextStyle tsBlack2Regular16 = GoogleFonts.poppins(
+    textStyle: const TextStyle(
+      color: AppColors.black2,
+      fontWeight: FontWeight.w600,
+      fontSize: 16.0,
     ),
   );
 
