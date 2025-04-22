@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc_starter/view/module/booking/booking_view.dart';
+import 'package:flutter_bloc_starter/view/module/home/home_view.dart';
+import 'package:flutter_bloc_starter/view/module/wallet/wallet_view.dart';
 
 class Timeouts {
   Timeouts._privateConstructor();

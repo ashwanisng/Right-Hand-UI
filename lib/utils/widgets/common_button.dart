@@ -26,7 +26,7 @@ class CommonButton extends StatelessWidget {
           backgroundColor: buttonBackgroundColor,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         ),
-        child: Text(buttonName, style: buttonTextStyle),
+        child: Text(buttonName, style: buttonTextStyle, textScaler: TextScaler.linear(1.0),),
       ),
     );
   }
